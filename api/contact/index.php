@@ -15,7 +15,6 @@ if( empty($_POST['firstName']) && empty($_POST['email']) ) {
     ); 
     exit();
 }
-
 if ($_POST){
     //@important: Please change this before using
     http_response_code(200);
