@@ -40,12 +40,7 @@ class Form extends React.Component {
       })
       .catch(error => this.setState({ error: error.message }));
   };
-  /**
-    * @function handleChange
-    * @param e { obj } - change event
-    * @param field { string } - namve of the field
-    * @return void
-    */
+
   handleChange = (e, field) => {
     let value = e.target.value;
     let updateValue = {};
@@ -59,8 +54,8 @@ class Form extends React.Component {
       <div className="App">
         <h2>{title}</h2>
         <div>
-          <form action="#">
-            {fieldsConfig &&
+          <form action = "#">
+          {fieldsConfig &&
               fieldsConfig.map(field => {
                 return (
                   <React.Fragment key={field.id}>

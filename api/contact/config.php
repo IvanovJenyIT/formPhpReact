@@ -1,4 +1,4 @@
 <?php
-$adminEmail =  "hey@malith.dev"; //Please change this to yours
+$adminEmail =  "jenyit@ya.ru"; //Please change this to yours
 $SendMailFailederrorMessage = "Something went wrong";
 $SendMailEmptyerrorMessage = "Empty form";
